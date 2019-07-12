@@ -1,0 +1,63 @@
+body {
+	padding: 30px;
+	margin: 0;
+	color: #333;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+h3,
+p.lead {
+	text-transform: capitalize;
+	color: #e91e63;
+}
+
+.fa-edit {
+	color: #fdd835;
+}
+
+.enter {
+	color: #fff;
+	background-color: #304ffe;
+	width: 100%;
+	padding: 8px;
+	border: none;
+	outline: none !important;
+}
+
+input:focus {
+	box-shadow: none !important;
+}
+
+.form-control {
+	border-radius: 0;
+
+}
+
+ul {
+	margin-top: 2rem;
+}
+
+.done {
+	text-decoration: line-through;
+	text-decoration-color: red;
+}
+
+.remove {
+	display: none;
+}
+
+.deleteBtn {
+	cursor: pointer;
+	background: #db0808;
+	position: absolute;
+	right: 0;
+	border: none;
+	color: #fff;
+	margin-top: -12px;
+	padding: 12px 20px;
+	font-weight: bold;
+}
+
+.list-group{
+   word-wrap:break-word;
+}
